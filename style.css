@@ -1,0 +1,171 @@
+body {
+    background-color: lightpink;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 10;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    color: #FF69B4;
+    text-shadow: 2px 2px #FF1493;
+}
+
+h2 {
+    font-size: 250%;
+    color: #FF1493;
+    border-bottom: 2px solid #FF69B4;
+    padding-bottom: 10px;
+}
+
+pre {
+    background-color: #fff0f5;
+    border: 2px solid #FF69B4;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+a {
+    margin: 30px;
+    padding: 30px;
+    background-color: #FF69B4;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+a:hover {
+    background-color: #FF1493;
+}
+
+.content-right img {
+    width: 90%;
+    height: auto; 
+    margin-top: 120px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.content {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.content-left {
+    flex: 1;
+    margin-right: 5px;
+    background-color: #edb0cf;
+    border-radius: 10%;
+    padding: 1%;
+}
+.content-right {
+    flex: 1;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    padding: 1%;
+}
+.header {
+    height: 80px;
+    background-color: rgb(228, 168, 188);
+    border: 5px ridge whitesmoke;
+}
+.header a{
+    float: right;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.container {
+    background-color: #FF69B4;
+    padding: 20px;
+}
+.image {
+    display: block;
+    margin: 0 auto;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: #edb0cf;
+    margin: 0 auto;
+}
+.container-2 {
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #edb0cf;
+}
+.container-3 {
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge white;
+    flex-wrap: wrap;
+}
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #edb0cf;
+    margin: 10px;
+    padding: 10px;
+}
+.container-4 {
+    display: flex;
+    background-color: transparent;
+    border: 5px solid #FF1493;
+    height: 600px;
+}
+.blocks-wrapper {
+    position: relative;
+}
+.block-4 {
+    position: relative;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 5px solid #FF1493;
+}
+.block-5 {
+    position: relative;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    bottom: 100px;
+    left: 140px; 
+    border: 5px solid #cb78a4;
+}
+.block-6 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 180px;
+    left: 260px;
+    border: 5px solid #ca9bb4;
+    background-color: transparent;
+}
+.fixed-position {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('киса.png');
+    background-size: cover;
+}
